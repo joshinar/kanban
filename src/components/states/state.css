@@ -1,0 +1,10 @@
+.states-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid #eee;
+}
+
+.state-item {
+  max-height: 500px;
+  overflow-y: auto;
+}
